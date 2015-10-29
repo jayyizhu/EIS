@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form Ajax提交</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/login.js"></script>
+</head>
+<body>
+<form id="Form1" action="/add" method="post" >
+编号：<input name="id" type="text" /><br />
+名称：<input name="name" type="text" /><br />
+职称：<input name="title" type="text" /><br />
+<input type="submit" value="提 交" />
+</form>
+
+<form id="Form2" action="action.aspx" method="get" >
+名称：<input name="name" type="text" /><br />
+密码：<input name="password" type="password" /><br />
+手机：<input name="mobile" type="text" /><br />
+说明：<input name="memo" type="text" /><br />
+<input type="submit" value="提 交" />
+</form>
+<div id="divid"></div>
+</body>
+</html>
